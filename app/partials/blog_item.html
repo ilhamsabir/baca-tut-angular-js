@@ -1,0 +1,52 @@
+<div style="background:#085699">
+    
+
+<div class="container" style="margin-top:30px;">
+
+    <div class="row">
+
+    
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9" style="margin-top:30px;" ng-controller="ParamCtrl">
+       <div class="col-sm-12 animated fadeInUpBig" ng-init="tutDetail()">
+       <br/>
+        <div class="embed-responsive embed-responsive-16by9 col-sm-12">
+          <youtube-video video-id="theBestVideo1" player="bestPlayer"></youtube-video>
+        </div>
+        <div class="col-sm-8">
+        <hr/>
+         <h4 style="text-align:left;font-size:28px;font-weight:bold;color:#fff">{{tutorDetail.judul}}</h4>
+        </div>
+        <div class="col-sm-4" style="margin-top:10px">
+            <span class='st_facebook_large' displayText='Facebook'></span>
+            <span class='st_twitter_large' displayText='Tweet'></span>
+            <span class='st_youtube_large'>
+            <a class="btn btn-sm btn-danger" href="https://www.youtube.com/channel/UCoI6Vo0jaATinkRYUF_4NwQ" style="margin-bottom:23px" target="_blank">
+            <i class="fa fa-youtube-play" style="color:#fff;font-size:14px"></i> <strong style="font-size:14px;color:#fff">Subscribe Us</strong>
+            </a>
+            </span>
+        </div>
+
+      </div>
+     </div>
+
+     <div class="col-sm-3" ng-controller="SidedataCtrl" style="margin-top:60px;margin-bottom:20px">
+         <div class="col-sm-12 fadeIn" ng-init="tutSide()">
+         <h4 style="color:#fff">Tutorial Lainnya</h4>
+         <hr/>
+             <div class="col-sm-12 img5" ng-repeat="item in dataSide">
+                 <img class="img-responsive" src="http://localhost/zam/uploads/{{ item.gambar }}" style="margin-top:20px">
+                 <h4 style="text-align:center;font-size:15px;font-weight:bold;"><a style="color:#fff" href='#/tutorial/{{item.slugtut}}'>{{item.judul}}</a></h4>  
+             </div>
+         </div>
+     </div>
+
+   </div>
+
+</div>
+<!-- /.container -->
+
+</div>

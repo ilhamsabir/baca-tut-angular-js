@@ -1,0 +1,34 @@
+<div class="section" ng-controller="DepanCtrl" style="background:#eee;margin-top:50px">
+
+    <div class="container" ng-init="tampilData()">
+
+        <div class="row" ng-repeat="item in dataDepan">
+
+            <div class="col-sm-3">
+             <div class="panel panel-default" style="margin-top:20px;background:#eee;">
+                 <div class="panel-body">                    
+                    
+                     <p class="text-service">{{item.isi1}}r</p>
+                    
+                  </div>                
+              </div>
+            </div>
+
+               <div class="col-sm-3">
+             <div class="panel panel-default" style="margin-top:20px;background:#eee;">
+                 <div class="panel-body">                    
+                    
+                     <p class="text-service">{{item.isi2}}</p>
+                    
+                  </div>                
+              </div>
+            </div>
+
+   
+
+          </div><!-- /.row -->
+          
+    </div><!-- /.container -->
+    
+
+</div>

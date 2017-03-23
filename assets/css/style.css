@@ -1,0 +1,511 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+
+ .navigasi {
+  background-color: #085699;
+
+ }
+.navigasi .active >a:focus{
+
+	background-color: #fff;
+
+}
+ .sg-font{
+ 	font-family: Roboto;
+ 	font-weight: 500;
+ 	font-size: 18px;
+
+ }
+
+ .jumbo-bg{
+ 	
+ 	background: transparent; 	
+ 	background-color:#085699; 		
+ 	width: 100%;
+ 	min-height:580px;
+ 	color: #fff;
+ 	
+
+ }
+
+ .bg2{
+
+   height: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
+ }
+
+ .bg3{
+ 	background: url('../img/slide1.png') no-repeat;
+ 	width:30%;
+ 	height:30%;
+ 	
+ }
+
+ .text-tengah{
+ 	text-align: center;
+ 	color: #fff;
+ 	font-family: Roboto;
+
+ }
+
+ .tengah{
+ 	display: block;
+ 	
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+ .btn-bundar{
+
+ 	border-radius: 100%;
+ 	height: 25px;
+ 	width: 25px;
+ }
+
+ .text-service{
+
+ 	
+ 	text-align: center;
+ 	font-size: 18px;
+ }
+
+ .isi{
+
+ 	font-size: 16px;
+ }
+
+ .logo-service{
+ 	text-align:center;
+ 	font-size:42px;
+ 	color: #0143A3;
+ }
+
+  .logo-codeigniter{
+ 	text-align:center;
+ 	font-size:42px;
+ 	color: #dd4814;
+ 	font-weight: 500;
+ }
+
+ .logo-angular{
+ 	text-align:center;
+ 	font-size:42px;
+ 	color: #f00;
+ 	font-weight: 500;
+ }
+
+ .logo-ion{
+ 	text-align:center;
+ 	font-size:42px;
+ 	color: #008AFF;
+ 	font-weight: 500;
+ }
+
+ .logo-boot{
+
+ 	border: 2px solid #6f5499;
+ 	border-radius: 5px;
+ 	padding: 0 0 0 0;
+ 	background-color: #6f5499;
+ 	color: #fff;
+ 	font-size: 25px;
+ }
+
+
+ .a-font{
+ 	color:#fff;
+ 	font-size:22px;
+ 	font-family: Roboto;
+
+ }
+
+ .icon-font{
+ 
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size:39px;
+ 	margin-top:-30px;
+ 	color:#fff;
+ 	font-weight:900;
+
+ }
+
+ .icon-youtube{
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size:10px;
+ 	padding-top:16px;
+ 	color:#fff;
+ 	font-weight:400;
+ 	background: #f00;
+ 	padding-left:10px; 
+ 	margin-bottom: 30px;
+ }
+
+ .masuk{
+
+ 	border: 2px solid #fff;
+ 	padding: 15px 15px 15px 15px;
+ 
+ }
+
+  .daftar{
+
+ 	border: 2px solid #0273D4;
+ 	padding: 15px 15px 15px 15px;
+ 	background-color: #0273D4;
+ 	color: #fff;
+ }
+
+ .paragraf-depan{
+
+ 	text-align: justify;
+ 	color: #fff;
+ 	font-weight: 500;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 1.8;
+
+ }
+
+ .footer {
+    background-color: #3e3e3e;
+    
+    width: 100%;
+    height: 85px;
+    border-top: 1px solid #ccc;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   padding-top: 20px;
+   margin-top: 10px;
+}
+
+.news-item-depan{
+
+	text-align: left;
+	color: #147add;
+
+	font-size: 19px;
+
+}
+
+.date-news{
+	text-align: left;
+	color: #3e3e3e;
+	float: left;
+	font-size: 19px;
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+.judul{
+	text-align: left;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: Roboto;
+}
+
+.judul-1{
+	color: #fff;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: Roboto;
+	text-shadow: 0 -1px 0 rgba(0,0,0, 0.8);
+}
+
+.tut-button{
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+	border: 2px solid #2196f3;
+	background:#fff;
+	font-weight: 800;
+	padding: 10px 10px 10px 10px;
+
+	height: 100%;
+}
+
+.tut-button-active{
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+	border: 2px solid #2196f3;
+	background:#2196f3;
+	font-weight: 800;
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	height: 100%;
+}
+
+
+
+
+.animate-show {
+  line-height: 20px;
+  opacity: 1;
+  padding: 10px;
+  border: 0px solid black;
+ 
+}
+
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
+}
+
+.check-element {
+  padding: 10px;
+  border: 0px solid black;
+ 
+}
+
+/* untuk tentang page */
+
+
+ @-moz-keyframes slidein {
+    from {
+       margin-left:100%;
+       width:300%
+    }
+    to {
+       margin-left:0%;
+       width:100%;
+    }
+ }
+ @-webkit-keyframes slidein {
+    from {
+       margin-left:100%;
+       width:300%
+    }
+    to {
+       margin-left:0%;
+       width:100%;
+    }
+ }
+
+.slide-in {
+-moz-animation-duration: 3s;
+-webkit-animation-duration: 3s;
+-moz-animation-name: slidein;
+-webkit-animation-name: slidein;
+ }
+
+.slide-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay:0.8s;
+animation-delay: 0.8s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay: 1.2s;
+animation-delay: 1.2s;
+}
+
+/*---make a basic box ---*/
+.box{
+width: 100px;
+height: 100px;
+position: relative;
+margin: 10px;
+color: white;
+padding: 40px;  
+float: left;
+border: 1px solid #fff;
+background: #27a5d2;
+border-radius: 10px;
+}
+
+.animate-area	{ 
+	width: 560px; 
+	height: 400px; 
+	background-image: url(bg-clouds.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
+
+
+.animated {
+	
+		
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 0s;
+
+	}
+
+	@-webkit-keyframes fadeInDown {
+	0% {
+	   opacity: 0;
+	   -webkit-transform: translateY(-20px);
+	}
+	100% {
+	   opacity: 1;
+	   -webkit-transform: translateY(0);
+	}
+	}
+
+	@keyframes fadeInDown {
+	0% {
+	   opacity: 0;
+	   transform: translateY(-20px);
+	}
+	100% {
+	   opacity: 1;
+	   transform: translateY(0);
+	}
+	
+	}
+
+	@-webkit-keyframes bounceIn {
+            0% {
+               opacity: 0;
+               -webkit-transform: scale(.3);
+            }
+            50% {
+               opacity: 1;
+               -webkit-transform: scale(1.05);
+            }
+            70% {
+               -webkit-transform: scale(.9);
+            }
+            100% {
+               -webkit-transform: scale(1);
+            }
+         }
+
+
+         
+         @keyframes bounceIn {
+            0% {
+               opacity: 0;
+               transform: scale(0.3);
+            }
+            50% {
+               opacity: 1; 
+               transform: scale(1.05);
+            }
+            70% {
+               transform: scale(.9);
+            }
+            100% {
+               transform: scale(1);
+            }
+         }
+
+
+
+         @-webkit-keyframes fadeInUpBig {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(2000px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateY(0);
+               animation-delay: 0s;
+            }
+         }
+         
+         @keyframes fadeInUpBig {
+            0% {
+               opacity: 0;
+               transform: translateY(2000px);
+                -webkit-transition-delay: .5s;
+            }
+            100% {
+               opacity: 1;
+               transform: translateY(0);
+               animation-delay: 0s;
+            }
+         }
+         
+	.fadeInUpBig {
+	    -webkit-animation-name: fadeInUpBig;
+	    animation-name: fadeInUpBig;
+     }
+
+	.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	}
+
+	.fadeInRight {
+	    -webkit-animation-name: fadeInRight;
+	    animation-name: fadeInRight;
+     }
+
+        .bounceIn {
+            -webkit-animation-name: bounceIn; 
+            animation-name: bounceIn;
+         }
+
+
+.img5 {
+    border-radius: 0px 0 0px 0;
+    -moz-border-radius: 0px 0 0px 0;
+    -webkit-border-radius: 0px 0 0px 0;
+    -o-border-radius: 0px 0 0px 0;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.img5:hover {
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    -o-border-radius:0;
+}

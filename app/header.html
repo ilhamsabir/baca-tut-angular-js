@@ -1,0 +1,26 @@
+<nav class="navbar navbar-inverse navbar-fixed-top navigasi">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button btn-info" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color:#fff">
+            <span class="sr-only" style="color:#fff">Toggle navigation</span>
+            <span class="icon-bar" style="color:#fff"></span>
+            <span class="icon-bar" style="color:#fff"></span>
+            <span class="icon-bar" style="color:#fff"></span>
+          </button>
+        <a class="navbar-brand" href="http://localhost/baca-tut"><strong><i class="ion-erlenmeyer-flask"></i></strong> <strong class="a-font">{lab}<small>kodeajaib</small></strong></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav navbar-right" ng-controller="HeaderCtrl">
+          <li ng-class="{ active: isActive('/')}"><a href="#/"><strong class="sg-font">
+          <i class="ion-android-home" style="font-size:18px;font-weight:bold"></i></strong></a></li>
+          <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about"><strong class="sg-font">Tentang</strong></a></li>
+          <li ng-class="{ active: isActive('/tutorial')}"><a ng-href="#/tutorial"><strong class="sg-font">Tutorial</strong></a></li>
+ 
+
+         </ul>
+
+
+
+        </div><!--/.nav-collapse -->
+      </div>
+</nav>

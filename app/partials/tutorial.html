@@ -1,0 +1,71 @@
+<div class="container" style="margin-top:35px;width:100%">
+
+    <div class="row">
+    <br/>
+   
+      
+    </div>
+
+    <div class="row">
+       
+        <div class="col-sm-3" style="background:#7FC3FE;padding-bottom:10px" ng-init="startAni1 = false;">
+        <br/>
+     
+         <h3 style="font-weight:500;font-size:24px;">Pilih Tutorial</h3>
+         <hr/>
+        
+         <a class="btn tut-button" ng-href="#/tutorial/tut_html">HTML</a>
+         <button class="btn tut-button" ng-click="showme2 = true">CSS</button>
+         <button class="btn tut-button" ng-click="showme3 = true">Javascript</button>
+         <button class="btn tut-button" ng-click="showme = true">Bootstrap</button>
+
+         <button type="button" class="btn tut-button">PHP</button>
+         <button type="button" class="btn tut-button">CodeIgniter</button>
+
+         <button type="button" class="btn tut-button">NodeJs</button>
+         <button type="button" class="btn tut-button">AngularJs</button>
+         <button type="button" class="btn tut-button">ReactJs</button>
+
+         <button type="button" class="btn tut-button">Wordpress</button>
+         <button type="button" class="btn tut-button">Magento</button>
+         <button type="button" class="btn tut-button">Ionic Framework</button>
+
+         <button type="button" class="btn tut-button">MySql</button>
+         <button type="button" class="btn tut-button">MongoDb</button>
+
+         <button type="button" class="btn tut-button">Editor</button>
+         <button type="button" class="btn tut-button">Showcase</button>
+
+
+
+        </div>
+
+      <div class="col-sm-9" style="margin-top:30px;" ng-controller="SemuadataCtrl">
+       <div class="col-sm-12 animated fadeInUpBig" ng-init="semuaTut()">
+       <div class="col-sm-7">
+          <input ng-model="kategori" class="col-sm-6 form-control" placeholder="ketikan text untuk mencari disini ex. php , css , html">
+       </div>
+       <br/>
+       <br/>
+        <div class="col-sm-4 img5" ng-repeat="item in dataTut | filter:kategori" style="margin-bottom:30px;">
+
+         <img class="img-responsive" src="http://localhost/zam/uploads/{{ item.gambar }}" style="margin-top:20px">
+        <h4 style="text-align:center;font-size:15px;font-weight:bold"><a style="color:#3e3e3e" href='#/tutorial/{{item.slugtut}}'>{{item.judul}}</a></h4>
+             
+        <div>
+          
+             </div>
+         </div>
+
+       </div>
+       
+
+
+        </div>
+        </div>
+
+
+    </div>
+
+ </div>
+<!-- /.container -->
